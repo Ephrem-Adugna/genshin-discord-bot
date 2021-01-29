@@ -47,7 +47,7 @@ module.exports = {
                 break;
     }
 
-            function sendMessage(description, name) {
+          async  function sendMessage(description, name) {
                 const answerEmbed = new Discord.MessageEmbed()
                     .setColor('#FFF18E')
                     .setTitle(name)
@@ -70,6 +70,8 @@ module.exports = {
                         '(\\#[-a-z\\d_]*)?$', 'i'); // fragment locator
                     return !!pattern.test(str);
                 }
+                await message.channel.send("<@" + message.author.id + ">");
+
                 message.channel.send(answerEmbed);
             }
         }

@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.1",
+    "genshin-db": "^1.12.4",
     "snoowrap": "^1.22.0"
   }
 }
