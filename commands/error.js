@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 module.exports = {
-    name: 'error',
+    name: '-error',
     description: 'Sends an error message',
-    command: '`[No Command]`',
+    command: '`genshin-error`',
     async execute(message, args) {
         await message.channel.send("<@" + message.author.id + ">");
 

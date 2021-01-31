@@ -4,7 +4,7 @@ var snoowrap = require('snoowrap');
 module.exports = {
     name: '-meme',
     description: 'Gets a random meme from the r/Genshin_Memepact',
-    command: '`!genshin-meme category(new, hot, top)` category is optional',
+    command: '`genshin-meme category(new, hot, top)` category is optional',
     async execute(message, args, client) {
 
         const r = new snoowrap({

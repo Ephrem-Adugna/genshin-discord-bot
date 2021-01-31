@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const fs = require('fs');
 module.exports = {
     name: '-help',
-    description: 'Returns this!',
+    description: 'Returns a help screen like this!',
     command: '`genshin-help`',
     async execute(message, args, client) {
         await message.channel.send("<@" + message.author.id + ">");

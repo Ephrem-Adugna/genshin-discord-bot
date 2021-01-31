@@ -11,8 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "discord-tictactoe": "^2.0.7",
     "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "faunadb": "^4.0.2",
+    "firebase": "^8.2.5",
     "genshin-db": "^1.12.4",
+    "reconlx": "^1.0.8",
     "snoowrap": "^1.22.0"
   }
 }
